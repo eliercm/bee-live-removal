@@ -1,0 +1,53 @@
+@import '../../../styles/variables.scss';
+
+.top-contact {
+    background-color: $dark-brown;
+    padding: 5px 0px;
+
+    &>div>div {
+        &>div {
+            // display: -webkit-inline-box;
+            padding: 0px 15px 2px 12px;
+
+            &>i {
+                padding: 0 15px;
+
+                &>span {
+                    color: white;
+                    line-height: 14px;
+                    padding-left: 5px;
+                }
+            }
+        }
+
+        &>div.shop-pos {
+            text-align: -webkit-right;
+            background-color: #41140f;
+
+            &>i {
+                position: relative;
+                padding: 0;
+
+                &>span.badge {
+                    right: -15px;
+                    top: -5px;
+                    background-color: $yellow-bee;
+                    color: #000;
+                    border-radius: 50%;
+                    position: absolute;
+                    padding: 2px 5px;
+                }
+            }
+        }
+    }
+}
+
+/*@media only screen and (max-width: 767px) and (min-width: 100px) {
+    .top-contact {
+        &>div>div {
+            &>div:nth-child(1) {
+                display: none;
+            }
+        }
+    }
+}*/

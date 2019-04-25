@@ -1,0 +1,100 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.bg-services {
+    @include mixin-bg-image(feature-product-bg);
+}
+
+
+.services {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+
+    &>div {
+        padding-bottom: 100px;
+
+        &>div>div {
+            margin: 100px auto 0 !important;
+
+            &.col-service {
+                margin: 50px auto 0 !important;
+
+                &>div>div {
+                    &>div.hexagon {
+                        display: -webkit-inline-box;
+                        display: -moz-inline-box;
+
+                        .lft-hexagon {
+                            border-right: 30px solid $yellow-bee;
+                            border-top: 52px solid transparent;
+                            border-bottom: 52px solid transparent;
+                            height: 1px;
+                        }
+
+                        .rtl-hexagon {
+                            border-left: 30px solid $yellow-bee;
+                            border-top: 52px solid transparent;
+                            border-bottom: 52px solid transparent;
+                            height: 1px;
+                        }
+
+                        figure.bg-icon-service {
+                            background-color: $yellow-bee;
+                            width: 60px;
+                            height: 104px;
+                            //text-align: center;
+                            line-height: 104px;
+
+
+                            /*&::before {
+                                position: absolute;
+                                left: -30px;
+                                border-right: 30px solid $yellow-bee;
+                                border-top: 52px solid transparent;
+                                border-bottom: 52px solid transparent;
+                                content: "";
+                                display: block;
+                            }
+    
+                            &::after {
+                                position: absolute;
+                                right: 130px;
+                                border-left: 30px solid $yellow-bee;
+                                border-top: 52px solid transparent;
+                                border-bottom: 52px solid transparent;
+                                content: "";
+                                display: block;
+                                top: 0;
+                            }*/
+
+                            &>img {
+                                max-width: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+            &>h2 {
+                &::after {
+                    background: url(../../assets/images/title-bg-style.png) no-repeat center top;
+                    // @extend .bg-separator;
+                    height: 20px;
+                    width: 100%;
+                    content: "";
+                    position: relative;
+                    display: block;
+                    margin: 15px auto 25px;
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 100px) {
+    .services>div>div>div {
+        margin: 50px auto 25px !important;
+    }
+}

@@ -1,0 +1,22 @@
+@import '../../styles/variables.scss';
+@import '../../styles//mixin.scss';
+
+.bg-snippets {
+    @include mixin-bg-image(inner-banner);
+    background-attachment: fixed;
+    color: white;
+
+    &>div.snippets {
+        background-color: rgba(0, 0, 0, 0.8);
+
+        &>div>div>div {
+            &>h1 {
+                margin: 100px auto !important;
+
+                &>span {
+                    color: $yellow-bee;
+                }
+            }
+        }
+    }
+}

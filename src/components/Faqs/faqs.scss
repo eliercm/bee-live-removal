@@ -1,0 +1,97 @@
+@import '../../styles/variables.scss';
+//@import '../../styles/index.scss';
+
+#faqs {
+    background-color: $light-grey;
+
+    &>div>div {
+        &:last-child {
+            padding-bottom: 100px;
+        }
+
+        &>div {
+            &.text-center {
+                margin: 100px auto 50px !important;
+            }
+
+            &.faq-content {
+                border-right: solid 1px #cfcfcf;
+                text-align: center;
+
+                margin-bottom: 50px;
+
+                padding-bottom: 25px;
+
+                &:last-child {
+                    border-right: none;
+                }
+
+                &>h4 {
+                    color: $dark-wine;
+                }
+
+                .question {
+                    height: 40%;
+                }
+            }
+
+            &>h2::after {
+                background: url(../../assets/images/title-bg-style.png) no-repeat center top;
+                //@extend .bg-separator;
+                height: 20px;
+                width: 100%;
+                content: "";
+                position: relative;
+                display: block;
+                margin: 15px auto 25px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 100px) {
+    #faqs {
+        &>div>div>div {
+            &.faq-content {
+                border-right: none;
+                border-bottom: solid 1px #cfcfcf;
+            }
+
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 100px) {
+    #faqs>div>div {
+        &:last-child {
+            padding-bottom: 50px;
+        }
+
+        &>div {
+            &.text-center {
+                margin: 50px auto 25px !important;
+            }
+        }
+    }
+}
+
+
+
+
+/*.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition-property: height, visibility;
+    -o-transition-property: height, visibility;
+    transition-property: height, visibility;
+    -webkit-transition-duration: .35s;
+    -o-transition-duration: .35s;
+    transition-duration: .35s;
+    -webkit-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+}*/

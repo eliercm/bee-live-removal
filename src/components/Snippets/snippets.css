@@ -1,0 +1,19 @@
+.bg-snippets {
+  background: url("../../assets/images/inner-banner.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.bg-snippets > div.snippets {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bg-snippets > div.snippets > div > div > div > h1 {
+  margin: 100px auto !important;
+}
+
+.bg-snippets > div.snippets > div > div > div > h1 > span {
+  color: #ffcd00;
+}
+/*# sourceMappingURL=snippets.css.map */

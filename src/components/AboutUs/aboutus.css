@@ -1,0 +1,24 @@
+.about-us {
+  background-color: #f9f9f9;
+}
+
+.about-us > div > div > div {
+  margin: 100px auto !important;
+}
+
+.about-us > div > div > div > h2::after {
+  background: url(../../assets/images/title-bg-style.png) no-repeat center top;
+  height: 20px;
+  width: 100%;
+  content: "";
+  position: relative;
+  display: block;
+  margin: 15px auto 25px;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 100px) {
+  .about-us > div > div > div {
+    margin: 50px auto !important;
+  }
+}
+/*# sourceMappingURL=aboutus.css.map */

@@ -1,0 +1,57 @@
+//@import "../../styles/index.scss";
+
+#servicesareas {
+    background: url(../../assets/images/florida-transparent-1.png) no-repeat center center;
+    //background-attachment: fixed;
+    background-size: contain;
+
+    &>div.bg-services-areas {
+        background-color: rgba(255, 205, 0, 0.50);
+
+
+        &>div {
+
+
+            &>div>div {
+
+                &.text-center {
+                    margin: 100px auto 50px !important;
+                }
+
+                &.text-area {
+                    margin: 0 auto 100px !important;
+                }
+
+                &>h2::after {
+                    background: url(../../assets/images/title-bg-style.png) no-repeat center top;
+                    // @extend .bg-separator;
+                    height: 20px;
+                    width: 100%;
+                    content: "";
+                    position: relative;
+                    display: block;
+                    margin: 15px auto 25px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) and (min-width: 100px) {
+    #servicesareas {
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 100px) {
+    #servicesareas>div.bg-services-areas>div>div>div {
+        &.text-center {
+            margin: 50px auto 25px !important;
+        }
+
+        &.text-area {
+            margin: 0 auto 50px !important;
+        }
+
+    }
+}

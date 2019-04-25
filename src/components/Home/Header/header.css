@@ -1,0 +1,49 @@
+.top-contact {
+  background-color: #3a1515;
+  padding: 5px 0px;
+}
+
+.top-contact > div > div > div {
+  padding: 0px 15px 2px 12px;
+}
+
+.top-contact > div > div > div > i {
+  padding: 0 15px;
+}
+
+.top-contact > div > div > div > i > span {
+  color: white;
+  line-height: 14px;
+  padding-left: 5px;
+}
+
+.top-contact > div > div > div.shop-pos {
+  text-align: -webkit-right;
+  background-color: #41140f;
+}
+
+.top-contact > div > div > div.shop-pos > i {
+  position: relative;
+  padding: 0;
+}
+
+.top-contact > div > div > div.shop-pos > i > span.badge {
+  right: -15px;
+  top: -5px;
+  background-color: #ffcd00;
+  color: #000;
+  border-radius: 50%;
+  position: absolute;
+  padding: 2px 5px;
+}
+
+/*@media only screen and (max-width: 767px) and (min-width: 100px) {
+    .top-contact {
+        &>div>div {
+            &>div:nth-child(1) {
+                display: none;
+            }
+        }
+    }
+}*/
+/*# sourceMappingURL=header.css.map */

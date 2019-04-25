@@ -1,0 +1,70 @@
+#home {
+  background-color: #f9f9f9;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+.navbar button.navbar-toggler {
+  right: 20px;
+  position: absolute;
+  top: 30px;
+}
+
+.navbar.fixed-top {
+  right: auto !important;
+  left: auto !important;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(141, 70, 0, 0.3);
+          box-shadow: 0px 2px 3px 0px rgba(141, 70, 0, 0.3);
+}
+
+.navbar > div > #basic-navbar-nav > .navbar-nav {
+  /*background: #fff;
+            border-radius: 2px;
+            width: 230px;
+            position: absolute;
+            right: 0px;
+            top: 36px;
+            z-index: 99;*/
+}
+
+.navbar > div > #basic-navbar-nav > .navbar-nav > a.nav-link {
+  text-transform: uppercase;
+  padding: 2rem 1rem;
+  margin-right: .2rem;
+  color: #222;
+}
+
+.navbar > div > #basic-navbar-nav > .navbar-nav > a.nav-link:hover {
+  text-decoration: none;
+  background-color: #f1f1f1;
+}
+
+.navbar > div > #basic-navbar-nav > .navbar-nav > a.nav-link.active {
+  background-color: #ffcd00;
+  color: #41140f;
+}
+
+.navbar > .navbar-toggler > .navbar-toggler-icon {
+  width: 1em;
+  height: 1em;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 100px) {
+  .navbar > #basic-navbar-nav > .navbar-nav > a.nav-link {
+    padding: .5rem 1rem;
+  }
+  .navbar button.navbar-toggler {
+    top: 15px;
+  }
+  .navbar figure.figure {
+    width: 70%;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,116 @@
+#contacts-us {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0f0500), to(#000000));
+  background: linear-gradient(to bottom, #0f0500 0%, #000000 100%);
+}
+
+#contacts-us > div > div > div {
+  color: #ffcd00;
+  margin: 100px auto;
+}
+
+#contacts-us > div > div > div .fa {
+  color: white;
+  padding-right: 10px;
+}
+
+#contacts-us > div > div > div > div {
+  display: -webkit-box;
+  display: -moz-box;
+  margin: 3px auto;
+}
+
+#contacts-us > div > div > div > h2 {
+  color: white;
+}
+
+#contacts-us > div > div > div > h2::after {
+  background: url(../../assets/images/title-bg-style.png) no-repeat;
+  height: 20px;
+  width: 100%;
+  content: "";
+  position: relative;
+  display: block;
+}
+
+#contacts-us > div > div > div > h4 {
+  margin-right: 10px;
+}
+
+#contacts-us > div > div > div > h4 > span {
+  color: white;
+}
+
+#contacts-us > div > div > div > div.socials {
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+}
+
+#contacts-us > div > div > div > div.socials > div:nth-child(1) {
+  margin-left: 0;
+}
+
+#contacts-us > div > div > div > div.socials > div:hover {
+  cursor: pointer;
+}
+
+#contacts-us > div > div > div > div.socials > div:hover > a > i {
+  color: #ffcd00;
+}
+
+#contacts-us > div > div > div > div.socials > div {
+  background-color: #2a2a2a;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 3px 0;
+}
+
+#contacts-us > div > div > div > div.socials > div > a > i {
+  padding: 0;
+}
+
+#contacts-us a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#contacts-us a:hover {
+  color: #ffcd00;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 100px) {
+  #contactus > div > div {
+    text-align: center;
+  }
+  #contactus > div > div > div:nth-child(1) {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  #contactus > div > div > div:nth-child(2) {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #contactus > div > div > div:last-child {
+    margin-bottom: 50px;
+    margin-top: 0;
+    display: -ms-inline-grid;
+    display: inline-grid;
+  }
+  #contactus > div > div > div:last-child > div {
+    text-align: center;
+  }
+  #contactus > div > div > div:last-child .socials {
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+  }
+  #contactus > div > div > div > h2 {
+    color: white;
+  }
+  #contactus > div > div > div > h2::after {
+    background-position: center;
+  }
+}
+/*# sourceMappingURL=contactus.css.map */

@@ -1,0 +1,8 @@
+$url: '../../assets/images/';
+
+@mixin mixin-bg-image($name) {
+    $url:"../../assets/images/#{$name}.jpg";
+    background: url($url) no-repeat center center;
+    background-size: cover;
+
+}
