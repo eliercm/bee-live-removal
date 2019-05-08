@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import slide_1 from "../../../assets/images/slide-bg-1.jpg";
-import slide_2 from "../../../assets/images/slide-bg-1.jpg";
-import slide_3 from "../../../assets/images/slide-bg-1.jpg";
+import slide_2 from "../../../assets/images/slide-bg-2.jpg";
+import slide_3 from "../../../assets/images/slide-bg-3.jpg";
 import "./carousel.css";
 
 class CarouselComponent extends Component {
@@ -10,23 +10,20 @@ class CarouselComponent extends Component {
     slides: [
       {
         id: "slide0",
-        captionTitle: "First slide label",
-        captionText:
-          "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+        captionTitle: "Bee Hives",
+        captionText: "Bee Hives",
         url: slide_1
       },
       {
         id: "slide1",
-        captionTitle: "Second slide label",
-        captionText:
-          "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+        captionTitle: "Hives work",
+        captionText: "Hives work",
         url: slide_2
       },
       {
         id: "slide2",
-        captionTitle: "Third slide label",
-        captionText:
-          "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+        captionTitle: "Bees",
+        captionText: "Bees",
         url: slide_3
       }
     ]
@@ -34,11 +31,12 @@ class CarouselComponent extends Component {
 
   render() {
     return (
-      <Carousel>
+      <Carousel
+        interval="15000">
         {this.state.slides.map((item, index) => {
           return (
             <Carousel.Item key={index}>
-              <img className="d-block w-100" src={item.url} alt="First slide" />
+              <img className="d-block w-100" src={item.url} alt="Bee Hives" />
               {/** <Carousel.Caption>
                 <h3>{item.captionTitle}</h3>
                 <p>{item.captionText}</p>

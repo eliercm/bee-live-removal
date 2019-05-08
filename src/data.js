@@ -1,6 +1,6 @@
-import serv_0 from "./assets/images/bee-training-3.png";
+import serv_0 from "./assets/images/bee-training-2.png";
 import serv_1 from "./assets/images/bee-training-3.png";
-import serv_2 from "./assets/images/bee-training-2.png";
+import serv_2 from "./assets/images/bee-training-1.png";
 
 export const contacts = [
   {
@@ -37,8 +37,8 @@ export const Faqs = [
     id: "faq_1",
     question: "Does your bee removal come with a warranty?",
     answer:
-      "Yes, our warranties depend upon the Bee Removal service provided." +
-      " Warranties can range from 30 days to 12 months."
+      "No, we cannot control mother nature. Other swarms could occupy the site if an adequate " +
+      "repair is not made. There is a risk that other bees enter your property due to the essence of the pheromone."
   },
   {
     id: "faq_2",
@@ -46,6 +46,20 @@ export const Faqs = [
     answer:
       "No, our job to minimize the structural damage so that you can have it easly repaired. " +
       "Most removals require small cosmetic repairs that can be performed by any hanyman or contractor."
+  },
+  {
+    id: "faq_3",
+    question: "Why is it important to remove bees alive?",
+    answer:
+      "The use of pesticides has greatly reduced the population of bees. Bees are beneficial for our planet " +
+      "because they contribute to pollination. Today there are 100 species of crops that provide 90% of the " +
+      "food throughout the world, 70 of them are pollinated by bees. If the bees become extinct, our food chain " +
+      "would practically collapse, we would lose more than 2000 species of edible plants. We offer the removal and " +
+      "relocation, we do not eliminate the colony with poisons, but instead, we remove the colony and relocate them " +
+      "to a place where they can survive and thrive. We remove either a simple swarm that has just arrived or if it is " + 
+      "an established colony that has existed for years. Our most ecological approach is not only to save the bees but " +
+      "also to help save our planet. We use the correct methods during the process of removing bees alive. Only those swarms " +
+      "that are Africanized and are a danger due to their aggressiveness will be eliminated."
   }
 ];
 

@@ -11,14 +11,9 @@
 }
 
 #faqs > div > div > div.faq-content {
-  border-right: solid 1px #cfcfcf;
   text-align: center;
   margin-bottom: 50px;
   padding-bottom: 25px;
-}
-
-#faqs > div > div > div.faq-content:last-child {
-  border-right: none;
 }
 
 #faqs > div > div > div.faq-content > h4 {
@@ -26,7 +21,14 @@
 }
 
 #faqs > div > div > div.faq-content .question {
-  height: 40%;
+  height: 15%;
+  min-height: 65px;
+}
+
+#faqs > div > div > div.faq-content p {
+  margin: 0 auto;
+  text-align: justify;
+  width: 70%;
 }
 
 #faqs > div > div > div > h2::after {
@@ -47,6 +49,9 @@
   #faqs > div > div > div:last-child {
     border-bottom: none;
   }
+  #faqs > div > div > div.faq-content p {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 767px) and (min-width: 100px) {
@@ -55,6 +60,9 @@
   }
   #faqs > div > div > div.text-center {
     margin: 50px auto 25px !important;
+  }
+  #faqs > div > div > div.faq-content p {
+    width: 100%;
   }
 }
 

@@ -31,7 +31,14 @@
                 }
 
                 .question {
-                    height: 40%;
+                    height: 15%;
+                    min-height: 65px;
+                }
+
+                p {
+                    margin: 0 auto;
+                    text-align: justify;
+                    width: 70%;
                 }
             }
 
@@ -55,6 +62,9 @@
             &.faq-content {
                 border-right: none;
                 border-bottom: solid 1px #cfcfcf;
+                p {
+                    width: 100%;
+                }
             }
 
             &:last-child {
