@@ -34,17 +34,17 @@ export const contactUsComponent = () => {
             <h2>Contact Us</h2>
             <div>
               <i className="fa fa-envelope" />
-              <p> info@companyname.com</p>
+              <p> edbeeliveremoval@gmail.com</p>
             </div>
             <div>
               <i className="fa fa-phone" />
-              <p> +88 01911 837404</p>
+              <p> +1 941-315-6817</p>
             </div>
             <div className="socials">
               {socialsNetworks.map(item => {
                 return (
                   <div key={item.id}>
-                    <a href={item.url}>
+                    <a rel="noopener noreferrer" target="_blank" href={item.url}>
                       <i className={item.icon} />
                     </a>
                   </div>
@@ -58,61 +58,3 @@ export const contactUsComponent = () => {
   );
 };
 export default contactUsComponent;
-/**  <div id="contactus">
-      <Container>
-        <Row className="row-rtl">
-          <Col md={4} xs={12}>
-            <h2>Contact Us</h2>
-          </Col>
-          <Col md={4} xs={12}>
-            <h2>Quick Links</h2>
-          </Col>
-        </Row>
-        <Row className="row-txt">
-          <Col md={4} xs={12}>
-            <Figure>
-              <Figure.Image alt="logo" src={logo} />
-            </Figure>
-            <h4>
-              <small>
-                {" "}
-                We don't kill bees. <br />
-              </small>
-              We <span>saved</span> and
-              <span> relocated</span> in other apiaries.
-            </h4>
-          </Col>
-          <Col md={4} xs={12}>
-            {MenuItems.map((item, index) => {
-              if (item.name !== "Home")
-                return (
-                  <h5 key={`${index}_${item.id}`}>
-                    <a href={item.url}>{item.name}</a>
-                  </h5>
-                );
-            })}
-          </Col>
-          <Col md={4} xs={12}>
-            <div>
-              <i className="fa fa-envelope" />
-              <p> info@companyname.com</p>
-            </div>
-            <div>
-              <i className="fa fa-phone" />
-              <p> +88 01911 837404</p>
-            </div>
-            <div className="socials">
-              {socialsNetworks.map(item => {
-                return (
-                  <div key={item.id}>
-                    <a href={item.url}>
-                      <i className={item.icon} />
-                    </a>
-                  </div>
-                );
-              })}
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    </div> */

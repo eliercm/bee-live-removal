@@ -79,8 +79,7 @@ export const areas = [
 ];
 
 export const socialsNetworks = [
-  { id: "sn_facebook", url: "#", icon: "fa fa-facebook" },
-  { id: "sn_twitter", url: "#", icon: "fa fa-twitter" },
-  { id: "sn_youtube", url: "#", icon: "fa fa-youtube" },
-  { id: "sn_rss", url: "#", icon: "fa fa-rss" }
+  { id: "sn_facebook", url: "https://www.facebook.com/Edbeeliveremoval", icon: "fa fa-facebook" }
+  // { id: "sn_twitter", url: "#", icon: "fa fa-twitter" },
+  // { id: "sn_youtube", url: "#", icon: "fa fa-youtube" }
 ];
