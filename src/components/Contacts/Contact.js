@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Figure } from "react-bootstrap";
 import "./contactus.css";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/footer-logo.png";
 import { MenuItems, socialsNetworks } from "../../data";
 
 export const contactUsComponent = () => {
