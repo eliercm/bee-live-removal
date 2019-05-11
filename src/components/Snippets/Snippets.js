@@ -14,8 +14,8 @@ export const SnippetsComponent = () => {
                   {" "}
                   We don't kill bees. <br />
                 </small>
-                We <span>saved</span> and
-                <span> relocated</span> in other apiaries.
+                We <span>save</span> and
+                <span> relocate</span> to other apiaries.
               </h1>
             </Col>
           </Row>

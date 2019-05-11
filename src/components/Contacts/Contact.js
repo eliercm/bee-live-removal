@@ -15,8 +15,8 @@ export const contactUsComponent = () => {
             </Figure>
             <h4>
               <small>We don't kill bees.</small> <br />
-              We <span>saved</span> and
-              <span> relocated</span> in other apiaries.
+              We <span>save</span> and
+              <span> relocate</span> to other apiaries.
             </h4>
           </Col>
           <Col md={3} xs={12}>

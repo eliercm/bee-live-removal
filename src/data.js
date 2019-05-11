@@ -44,8 +44,8 @@ export const Faqs = [
     id: "faq_2",
     question: "Do you do repairs?",
     answer:
-      "No, our job to minimize the structural damage so that you can have it easly repaired. " +
-      "Most removals require small cosmetic repairs that can be performed by any hanyman or contractor."
+      "No, our job is to minimize the structural damage so that you can have it easily repaired. " +
+      "Most removals require small cosmetic repairs that can be performed by any handyman or contractor."
   },
   {
     id: "faq_3",
