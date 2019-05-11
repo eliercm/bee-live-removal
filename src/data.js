@@ -22,8 +22,8 @@ export const MenuItems = [
   { id: "contacs6", name: "Contact Us", url: "#contacts-us" }
 ];
 
-export const AboutUs = `We are a small, familly company that has been around for eight years. Our goal as a company is to help
- the enviroment by not only saving the bees but by crating new beekepers and teaching how to do their part as well.`;
+export const AboutUs = `We are a small, family company that has been around for eight years. Our goal as a company is to help
+ the environment by not only saving the bees but by creating new beekeepers and teaching how to do their part as well.`;
 
 export const Faqs = [
   {
