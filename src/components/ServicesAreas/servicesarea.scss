@@ -1,6 +1,6 @@
 //@import "../../styles/index.scss";
 
-#servicesareas {
+#services-areas {
     background: url(../../assets/images/florida-transparent-1.png) no-repeat center center;
     //background-attachment: fixed;
     background-size: contain;
@@ -10,7 +10,6 @@
 
 
         &>div {
-
 
             &>div>div {
 
@@ -38,13 +37,13 @@
 }
 
 @media only screen and (max-width: 575px) and (min-width: 100px) {
-    #servicesareas {
+    #services-areas {
         background-size: cover;
     }
 }
 
 @media only screen and (max-width: 767px) and (min-width: 100px) {
-    #servicesareas>div.bg-services-areas>div>div>div {
+    #services-areas>div.bg-services-areas>div>div>div {
         &.text-center {
             margin: 50px auto 25px !important;
         }

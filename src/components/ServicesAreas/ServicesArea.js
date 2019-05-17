@@ -19,11 +19,6 @@ export const ServicesAreaComponent = () => {
                 return <h4 key={item.id}>{item.area}</h4>;
               })}
             </Col>
-            {/**<Col>
-            <Figure>
-              <Figure.Image alt="map" src={map} />
-            </Figure>
-          </Col> */}
           </Row>
         </Container>
       </div>

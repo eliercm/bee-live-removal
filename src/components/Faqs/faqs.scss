@@ -15,7 +15,7 @@
             }
 
             &.faq-content {
-                border-right: solid 1px #cfcfcf;
+                border-bottom: solid 1px #cfcfcf;
                 text-align: center;
 
                 margin-bottom: 50px;
@@ -23,7 +23,7 @@
                 padding-bottom: 25px;
 
                 &:last-child {
-                    border-right: none;
+                    border-bottom: none;
                 }
 
                 &>h4 {
@@ -60,8 +60,9 @@
     #faqs {
         &>div>div>div {
             &.faq-content {
-                border-right: none;
-                border-bottom: solid 1px #cfcfcf;
+
+                // border-right: none;
+                // border-bottom: solid 1px #cfcfcf;
                 p {
                     width: 100%;
                 }

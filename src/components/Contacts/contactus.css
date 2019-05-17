@@ -81,35 +81,35 @@
   color: #ffcd00;
 }
 
-@media only screen and (max-width: 767px) and (min-width: 100px) {
-  #contactus > div > div {
+@media only screen and (max-width: 767px) {
+  #contacts-us > div > div {
     text-align: center;
   }
-  #contactus > div > div > div:nth-child(1) {
+  #contacts-us > div > div > div:nth-child(1) {
     margin-top: 50px;
     margin-bottom: 0;
   }
-  #contactus > div > div > div:nth-child(2) {
+  #contacts-us > div > div > div:nth-child(2) {
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  #contactus > div > div > div:last-child {
+  #contacts-us > div > div > div:last-child {
     margin-bottom: 50px;
     margin-top: 0;
     display: -ms-inline-grid;
     display: inline-grid;
   }
-  #contactus > div > div > div:last-child > div {
+  #contacts-us > div > div > div:last-child > div {
     text-align: center;
   }
-  #contactus > div > div > div:last-child .socials {
+  #contacts-us > div > div > div:last-child .socials {
     display: -webkit-inline-box;
     display: -moz-inline-box;
   }
-  #contactus > div > div > div > h2 {
+  #contacts-us > div > div > div > h2 {
     color: white;
   }
-  #contactus > div > div > div > h2::after {
+  #contacts-us > div > div > div > h2::after {
     background-position: center;
   }
 }

@@ -56,9 +56,9 @@
   height: 1em;
 }
 
-@media only screen and (max-width: 991px) and (min-width: 100px) {
-  .navbar > #basic-navbar-nav > .navbar-nav > a.nav-link {
-    padding: .5rem 1rem;
+@media only screen and (max-width: 991px) {
+  .navbar > div > #basic-navbar-nav > .navbar-nav > a.nav-link {
+    padding: .8rem 1rem;
   }
   .navbar button.navbar-toggler {
     top: 15px;
